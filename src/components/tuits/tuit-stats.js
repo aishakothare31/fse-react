@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import * as dislikesService from "../../services/dislikes-service";
 import * as likesService from "../../services/likes-service";
-import clsx from "clsx";
+
 
 const TuitStats = ({tuit, likeTuit, dislikeTuit}) => {
   // const [dislikedTuit, setDislikedTuit] = useState(false);
