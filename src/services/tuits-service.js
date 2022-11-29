@@ -3,7 +3,7 @@ import axios from "axios";
 // const BASE_URL = "https://tuiter-node-fa22-ak.herokuapp.com"
 // const TUITS_API = `https://tuiter-node-fa22-ak.herokuapp.com/tuits`;
 // const USERS_API = `https://tuiter-node-fa22-ak.herokuapp.com/users`;
-const BASE_URL = process.env.REACT_APP_BASE_URL;
+const BASE_URL = "https://tuiter-node-fa22-ak.herokuapp.com"
 const TUITS_API = `${BASE_URL}/tuits`;
 const USERS_API = `${BASE_URL}/users`;
 

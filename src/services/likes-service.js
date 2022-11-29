@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = process.env.REACT_APP_BASE_URL;
+const BASE_URL = "https://tuiter-node-fa22-ak.herokuapp.com"
 const USERS_API = `${BASE_URL}/users`;
 const USER_API = `${BASE_URL}/user`;
 const api = axios.create({
